@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const TopSelling = () => {
   return (
@@ -14,13 +15,15 @@ const TopSelling = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
           {/* Product Card 1 */}
           <div className="flex flex-col items-center bg-[#F9F9F9] p-4 rounded-lg shadow-md">
+          <Link href="/Product-DetailPage">
             <Image
-              src="/images/black-shirt.png" // Replace with your T-shirt image path
+              src="/images/Product8.png" // Replace with your T-shirt image path
               alt="T-shirt with Tape Details"
               width={200}
               height={200}
               className="object-contain"
             />
+            </Link>
             <h3 className="text-lg font-medium mt-4">Vertical Striped Shirt</h3>
             <div className="flex items-center gap-1 mt-2">
               <span className="text-yellow-500 text-sm">★★★★☆</span>
@@ -31,13 +34,15 @@ const TopSelling = () => {
 
           {/* Product Card 2 */}
           <div className="flex flex-col items-center bg-[#F9F9F9] p-4 rounded-lg shadow-md">
+          <Link href="/Product-DetailPage">
             <Image
-              src="/images/jeans-pent.png" // Replace with your Jeans image path
+              src="/images/Product9.png" // Replace with your Jeans image path
               alt="Skinny Fit Jeans"
               width={200}
               height={200}
               className="object-contain"
             />
+            </Link>
             <h3 className="text-lg font-medium mt-4">Courage Graphic T-Shirt</h3>
             <div className="flex items-center gap-1 mt-2">
               <span className="text-yellow-500 text-sm">★★★☆☆</span>
@@ -51,13 +56,15 @@ const TopSelling = () => {
 
           {/* Product Card 3 */}
           <div className="flex flex-col items-center bg-[#F9F9F9] p-4 rounded-lg shadow-md">
+          <Link href="/Product-DetailPage">
             <Image
-              src="/images/red-white-shirt.png" // Replace with your Shirt image path
+              src="/images/Product10.png" // Replace with your Shirt image path
               alt="Checkered Shirt"
               width={200}
               height={200}
               className="object-contain"
             />
+            </Link>
             <h3 className="text-lg font-medium mt-4">Loose Fit Bermuda Shorts</h3>
             <div className="flex items-center gap-1 mt-2">
               <span className="text-yellow-500 text-sm">★★★★☆</span>
@@ -68,13 +75,15 @@ const TopSelling = () => {
 
           {/* Product Card 4 */}
           <div className="flex flex-col items-center bg-[#F9F9F9] p-4 rounded-lg shadow-md">
+          <Link href="/Product-DetailPage">
             <Image
-              src="/images/orange-shirt.png" // Replace with your T-shirt image path
+              src="/images/Product11.png" // Replace with your T-shirt image path
               alt="Sleeve Striped T-shirt"
               width={200}
               height={200}
               className="object-contain"
             />
+            </Link>
             <h3 className="text-lg font-medium mt-4">Faded Skinny Jeans</h3>
             <div className="flex items-center gap-1 mt-2">
               <span className="text-yellow-500 text-sm">★★★★☆</span>
