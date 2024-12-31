@@ -171,8 +171,7 @@ const ShirtDetail = () => {
                 Samantha D. <span className="text-green-500">✔</span>
               </h3>
               <p className="text-gray-600 text-sm mb-4">
-                "I absolutely love this t-shirt! The design is unique and the fabric feels so comfortable. As a fellow designer, I appreciate the attention to detail. It’s become my favorite go-to shirt."
-              </p>
+                I absolutely love this t-shirt! The design is unique and the fabric feels so comfortable. As a fellow designer, I appreciate the attention to detail. Its become my favorite go-to shirt.              </p>
               <p className="text-gray-400 text-xs">Posted on August 14, 2023</p>
             </div>
 
@@ -185,7 +184,7 @@ const ShirtDetail = () => {
                 Alex M. <span className="text-green-500">✔</span>
               </h3>
               <p className="text-gray-600 text-sm mb-4">
-                "The t-shirt exceeded my expectations! The colors are vibrant and the print quality is top-notch. Being a UI/UX designer myself, I’m quite picky about aesthetics, and this t-shirt definitely gets a thumbs up from me."
+                The t-shirt exceeded my expectations! The colors are vibrant and the print quality is top-notch. Being a UI/UX designer myself, Im quite picky about aesthetics, and this t-shirt definitely gets a thumbs up from me.
               </p>
               <p className="text-gray-400 text-xs">Posted on August 15, 2023</p>
             </div>
@@ -199,7 +198,7 @@ const ShirtDetail = () => {
                 Ethan R. <span className="text-green-500">✔</span>
               </h3>
               <p className="text-gray-600 text-sm mb-4">
-                "This t-shirt is a must-have for anyone who appreciates good design. The minimalistic yet stylish pattern caught my eye, and the fit is perfect. I can see the designer's touch in every aspect of this shirt."
+                This t-shirt is a must-have for anyone who appreciates good design. The minimalistic yet stylish pattern caught my eye, and the fit is perfect. I can see the designers touch in every aspect of this shirt.
               </p>
               <p className="text-gray-400 text-xs">Posted on August 16, 2023</p>
             </div>
@@ -213,7 +212,7 @@ const ShirtDetail = () => {
                 Olivia P. <span className="text-green-500">✔</span>
               </h3>
               <p className="text-gray-600 text-sm mb-4">
-                "As a UI/UX enthusiast, I value simplicity and functionality. This t-shirt not only represents those principles but also feels great to wear. It’s evident that the designer poured their creativity into making this t-shirt stand out."
+                As a UI/UX enthusiast, I value simplicity and functionality. This t-shirt not only represents those principles but also feels great to wear. Its evident that the designer poured their creativity into making this t-shirt stand out.
               </p>
               <p className="text-gray-400 text-xs">Posted on August 17, 2023</p>
             </div>
@@ -227,7 +226,7 @@ const ShirtDetail = () => {
                 Samantha D. <span className="text-green-500">✔</span>
               </h3>
               <p className="text-gray-600 text-sm mb-4">
-                "I absolutely love this t-shirt! The design is unique and the fabric feels so comfortable. As a fellow designer, I appreciate the attention to detail. It’s become my favorite go-to shirt."
+                I absolutely love this t-shirt! The design is unique and the fabric feels so comfortable. As a fellow designer, I appreciate the attention to detail. It’s become my favorite go-to shirt.
               </p>
               <p className="text-gray-400 text-xs">Posted on August 14, 2023</p>
             </div>
@@ -241,11 +240,10 @@ const ShirtDetail = () => {
                 Alex M. <span className="text-green-500">✔</span>
               </h3>
               <p className="text-gray-600 text-sm mb-4">
-                "The t-shirt exceeded my expectations! The colors are vibrant and the print quality is top-notch. Being a UI/UX designer myself, I’m quite picky about aesthetics, and this t-shirt definitely gets a thumbs up from me."
+                The t-shirt exceeded my expectations! The colors are vibrant and the print quality is top-notch. Being a UI/UX designer myself, I’m quite picky about aesthetics, and this t-shirt definitely gets a thumbs up from me.
               </p>
               <p className="text-gray-400 text-xs">Posted on August 15, 2023</p>
             </div>
-
           </div>
 
 
