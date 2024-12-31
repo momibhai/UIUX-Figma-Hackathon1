@@ -14,8 +14,8 @@ export default function HappyCustomers() {
             </div>
             <h3 className="font-semibold text-lg mb-2">Sarah M. <span className="text-green-500">✔</span></h3>
             <p className="text-gray-600 text-sm">
-              &quot;I&apos;m blown away by the quality and style of the clothes I received from Shop.co. 
-              From casual wear to elegant dresses, every piece I&apos;ve bought has exceeded my expectations.&quot;
+              I am blown away by the quality and style of the clothes I received from Shop.co. 
+              From casual wear to elegant dresses, every piece I have bought has exceeded my expectations.
             </p>
           </div>
 
@@ -26,8 +26,8 @@ export default function HappyCustomers() {
             </div>
             <h3 className="font-semibold text-lg mb-2">Alex K. <span className="text-green-500">✔</span></h3>
             <p className="text-gray-600 text-sm">
-              &quot;Finding clothes that align with my personal style used to be a challenge until I discovered Shop.co. 
-              The range of options they offer is truly remarkable, catering to a variety of tastes and occasions.&quot;
+              Finding clothes that align with my personal style used to be a challenge until I discovered Shop.co. 
+              The range of options they offer is truly remarkable, catering to a variety of tastes and occasions.
             </p>
           </div>
 
@@ -38,8 +38,8 @@ export default function HappyCustomers() {
             </div>
             <h3 className="font-semibold text-lg mb-2">James L. <span className="text-green-500">✔</span></h3>
             <p className="text-gray-600 text-sm">
-              &quot;As someone who&apos;s always on the lookout for unique fashion pieces, I&apos;m thrilled to have stumbled upon Shop.co. 
-              The selection of clothes is not only diverse but also on-point with the latest trends.&quot;
+              As someone who is always on the lookout for unique fashion pieces, I am thrilled to have stumbled upon Shop.co. 
+              The selection of clothes is not only diverse but also on-point with the latest trends.
             </p>
           </div>
         </div>
