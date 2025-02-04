@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { TrashIcon } from "@heroicons/react/24/solid";
 import { useCart } from "../context/CartContext";
 import toast from "react-hot-toast";
+import Image from "next/image";
 
 const CartPage = () => {
   const { state, dispatch } = useCart();
@@ -87,7 +88,7 @@ const CartPage = () => {
                     <TrashIcon className="w-6 h-6 text-red-600 hover:text-red-800" />
                   </button>
                   <div className="flex gap-6 items-center">
-                    <img
+                    <Image
                       src={item.imageUrl || "/placeholder.svg"}
                       alt={item.name}
                       className="w-[150px] h-[160px] rounded-lg object-cover"
