@@ -1,4 +1,9 @@
+import { ClerkProvider, SignInButton, SignedIn, SignedOut, UserButton } from '@clerk/nextjs'
 import './globals.css';
+import { CartProvider } from './context/CartContext';
+import Navbar from './components/navbar';
+import Footer from './components/HomePage/Footer';
+import { Toaster } from "react-hot-toast";
 
 export const metadata = {
   title: 'Hackathon Project',
@@ -11,8 +16,19 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body>{children}</body>
-    </html>
+    <ClerkProvider>
+      <html lang="en">
+        <body>
+          {/* Navbar */}
+          <CartProvider>
+            <Navbar />
+            <Toaster position="top-center" />
+            {children}
+            <Footer />
+          </CartProvider>
+
+        </body>
+      </html>
+    </ClerkProvider>
   );
 }

@@ -10,8 +10,7 @@ import TopSelling from './components/HomePage/TopSelling';
 export default function Home() {
   return (
     <>
-      {/* Navbar */}
-      <Navbar />
+      
 
       {/* Hero Section */}
       <HeroSection />
@@ -25,13 +24,12 @@ export default function Home() {
       <hr style={{width :'80%', margin:"0 auto", textAlign:'center'}} />
 
       {/* Top Selling */}
-      <TopSelling />
+      {/* <TopSelling /> */}
 
       <BrowseByStyle />
 
       <HappyCustomers />
 
-      <Footer/>
 
     </>
   );
