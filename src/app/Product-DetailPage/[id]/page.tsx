@@ -7,7 +7,7 @@ import { useUser } from "@clerk/nextjs"
 import { toast } from 'react-hot-toast';
 
 interface Product {
-  _id: string
+  _id: number
   name: string
   description: string
   price: number
@@ -39,7 +39,7 @@ const ShirtDetail = ({ params }: { params: { id: string } }) => {
           throw new Error(`HTTP error! Status: ${response.status}`)
         }
         const products: Product[] = await response.json()
-        const foundProduct = products.find((p) => p._id === id)
+        const foundProduct = products.find((p) => p._id === Number(id)) // Fix comparison
         setProduct(foundProduct || null)
       } catch (error) {
         console.error("Error fetching product:", error)
@@ -71,7 +71,7 @@ const ShirtDetail = ({ params }: { params: { id: string } }) => {
     }
 
     const cartItem = {
-      _id: product._id,
+      _id: product._id.toString(), // Convert _id to string
       name: product.name,
       price: Number.parseFloat(discountedPrice || product.price.toString()),
       imageUrl: product.imageUrl,
